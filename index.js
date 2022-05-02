@@ -22,9 +22,6 @@ app.get('/', (req, res) => {
     res.json({ message: 'Teste!' })
 })
 
-//103055!!
-//mongodb+srv://Gabriella:103055!!@apicluster.vbzx0.mongodb.net/bancodaapi?retryWrites=true&w=majority
-
 const DB_USER = process.env.DB_USER
 const DB_PASSWORD = process.env.DB_PASSWORD
 
